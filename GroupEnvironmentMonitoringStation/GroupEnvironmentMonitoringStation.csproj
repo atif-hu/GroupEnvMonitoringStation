@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\LondonMonitoringStationAPI.csproj" />
+    <ProjectReference Include="..\..\EnvMonitoring\EnvMonitoring\SensorsAPI\LondonSensorsAPI.csproj" />
     <ProjectReference Include="..\..\EnvMonitoring\EnvMonitoring\Sensors\LondonSensors.csproj" />
   </ItemGroup>
 
