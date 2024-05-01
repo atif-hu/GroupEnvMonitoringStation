@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupEnvironmentMonitoringStation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b45e384e4327401a9d24c03b8d844bda3675b590")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24a0b6c9da2bbf4606a3ff1f16465d0dd32ec206")]
 [assembly: System.Reflection.AssemblyProductAttribute("GroupEnvironmentMonitoringStation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GroupEnvironmentMonitoringStation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
