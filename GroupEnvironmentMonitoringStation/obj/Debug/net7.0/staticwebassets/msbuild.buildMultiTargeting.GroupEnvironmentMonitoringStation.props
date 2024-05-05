@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GroupEnvironmentMonitoringStation.props" />
+</Project>
