@@ -995,7 +995,6 @@
       },
       "LondonMonitoringStationAPI/1.0.0": {
         "dependencies": {
-          "GroupEnvironmentMonitoringStation": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.7",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.0",
@@ -2792,9 +2791,6 @@
         "compile": {
           "WindowsBase.dll": {}
         },
-        "compileOnly": true
-      },
-      "GroupEnvironmentMonitoringStation/1.0.0": {
         "compileOnly": true
       }
     }
@@ -4726,11 +4722,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GroupEnvironmentMonitoringStation/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
