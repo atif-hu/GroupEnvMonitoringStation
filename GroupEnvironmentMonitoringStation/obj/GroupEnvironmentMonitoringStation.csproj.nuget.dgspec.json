@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj": {}
+    "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj": {
+    "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj",
         "projectName": "GroupEnvironmentMonitoringStation",
-        "projectPath": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj",
-        "packagesPath": "C:\\Users\\mnoum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mnoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,17 +27,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\mnoum\\Documents\\GitHub\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj": {
-                "projectPath": "C:\\Users\\mnoum\\Documents\\GitHub\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj"
-              },
-              "C:\\Users\\mnoum\\Documents\\GitHub\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\LondonSensorsAPI.csproj": {
-                "projectPath": "C:\\Users\\mnoum\\Documents\\GitHub\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\LondonSensorsAPI.csproj"
-              },
-              "C:\\Users\\mnoum\\Documents\\GitHub\\EnvMonitoring\\EnvMonitoring\\Sensors\\LondonSensors.csproj": {
-                "projectPath": "C:\\Users\\mnoum\\Documents\\GitHub\\EnvMonitoring\\EnvMonitoring\\Sensors\\LondonSensors.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -54,30 +44,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Testing": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
-              "target": "Package",
-              "version": "[1.1.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
