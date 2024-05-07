@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupEnvironmentMonitoringStation", "GroupEnvironmentMonitoringStation\GroupEnvironmentMonitoringStation.csproj", "{70F01DAD-B724-41E6-8520-F6D025CD883E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonMonitoringStationAPI", "..\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\LondonMonitoringStationAPI.csproj", "{C1534FBD-B682-44BF-877B-36AA32273CE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonSensors", "..\EnvMonitoring\EnvMonitoring\Sensors\LondonSensors.csproj", "{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}"
@@ -13,16 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonSensorsAPI", "..\EnvM
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend", "Frontend\frontend.esproj", "{9F603571-ABBC-4A7A-9246-C3FD485D12E7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend", "backend\backend.csproj", "{55814844-9ECE-4D23-BD3A-9CC0EF39142F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70F01DAD-B724-41E6-8520-F6D025CD883E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70F01DAD-B724-41E6-8520-F6D025CD883E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70F01DAD-B724-41E6-8520-F6D025CD883E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70F01DAD-B724-41E6-8520-F6D025CD883E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{9F603571-ABBC-4A7A-9246-C3FD485D12E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F603571-ABBC-4A7A-9246-C3FD485D12E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F603571-ABBC-4A7A-9246-C3FD485D12E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55814844-9ECE-4D23-BD3A-9CC0EF39142F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55814844-9ECE-4D23-BD3A-9CC0EF39142F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55814844-9ECE-4D23-BD3A-9CC0EF39142F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55814844-9ECE-4D23-BD3A-9CC0EF39142F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

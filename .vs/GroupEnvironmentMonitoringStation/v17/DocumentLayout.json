@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\groupenvironmentmonitoringstation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|solutionrelative:groupenvironmentmonitoringstation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\groupenvironmentmonitoringstation\\database\\groupmonitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|solutionrelative:groupenvironmentmonitoringstation\\database\\groupmonitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\migrations\\20240507164914_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20240507164914_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\groupenvironmentmonitoringstation\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|solutionrelative:groupenvironmentmonitoringstation\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1534FBD-B682-44BF-877B-36AA32273CE5}|..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\envmonitoring\\envmonitoring\\monitoringstationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -21,19 +25,7 @@
       "AbsoluteMoniker": "D:0:0:{C1534FBD-B682-44BF-877B-36AA32273CE5}|..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\envmonitoring\\envmonitoring\\monitoringstationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\groupenvironmentmonitoringstation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|solutionrelative:groupenvironmentmonitoringstation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1534FBD-B682-44BF-877B-36AA32273CE5}|..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\envmonitoring\\envmonitoring\\monitoringstationapi\\database\\monitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\groupenvironmentmonitoringstation\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|solutionrelative:groupenvironmentmonitoringstation\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\groupenvironmentmonitoringstation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F01DAD-B724-41E6-8520-F6D025CD883E}|GroupEnvironmentMonitoringStation\\GroupEnvironmentMonitoringStation.csproj|solutionrelative:groupenvironmentmonitoringstation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,85 +35,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:37:22.106Z",
+              "DocumentIndex": 0,
+              "Title": "backend.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\backend.csproj",
+              "RelativeDocumentMoniker": "backend\\backend.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\backend.csproj",
+              "RelativeToolTip": "backend\\backend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T16:50:31.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:41:39.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
-              "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T02:38:34.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T16:41:17.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240507164914_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\20240507164914_InitialCreate.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20240507164914_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\20240507164914_InitialCreate.cs",
+              "RelativeToolTip": "backend\\Migrations\\20240507164914_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:49:15.117Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\appsettings.json",
-              "RelativeDocumentMoniker": "GroupEnvironmentMonitoringStation\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\appsettings.json",
-              "RelativeToolTip": "GroupEnvironmentMonitoringStation\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
+              "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T00:13:23.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:38:34.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Program.cs",
-              "RelativeDocumentMoniker": "GroupEnvironmentMonitoringStation\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Program.cs",
-              "RelativeToolTip": "GroupEnvironmentMonitoringStation\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
+              "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T23:56:55.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "GroupEnvironmentMonitoringStation\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Models\\Users.cs",
-              "RelativeToolTip": "GroupEnvironmentMonitoringStation\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:36:47.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupMonitoringStationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Database\\GroupMonitoringStationDbContext.cs",
-              "RelativeDocumentMoniker": "GroupEnvironmentMonitoringStation\\Database\\GroupMonitoringStationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Database\\GroupMonitoringStationDbContext.cs",
-              "RelativeToolTip": "GroupEnvironmentMonitoringStation\\Database\\GroupMonitoringStationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:33:28.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:37:22.106Z"
             },
             {
               "$type": "Document",
@@ -133,34 +120,7 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAzwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:33:31.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "GroupEnvironmentMonitoringStation\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "GroupEnvironmentMonitoringStation\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T23:59:09.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "GroupEnvironmentMonitoringStation\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\GroupEnvironmentMonitoringStation\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "GroupEnvironmentMonitoringStation\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:00:59.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T14:33:31.526Z"
             }
           ]
         }
