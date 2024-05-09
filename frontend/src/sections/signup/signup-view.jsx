@@ -1,4 +1,4 @@
-import Cookies from 'js-cookie';
+// import Cookies from 'js-cookie';
 import { useState } from 'react';
 import { useSnackbar } from 'notistack';
 
@@ -6,8 +6,6 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
@@ -22,13 +20,12 @@ import { bgGradient } from 'src/theme/css';
 import Logo from 'src/components/logo';
 import Iconify from 'src/components/iconify';
 
-// ----------------------------------------------------------------------
 
-export default function LoginView() {
+export default function SignupView() {
   const theme = useTheme();
   const router = useRouter();
-
   const { enqueueSnackbar } = useSnackbar();
+
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -36,50 +33,54 @@ export default function LoginView() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const username = e.target.email.value;
+    const firstName = e.target.firstName.value;
+    const lastName = e.target.lastName.value;
+    const email = e.target.email.value;
     const password = e.target.password.value;
+    const dateOfBirth = e.target.dob.value;
+    const isActive = true;
 
     try {
       // Call your backend authentication service's signup method
-      const response = await fetch('https://localhost:7132/Auth/login', {
+      const response = await fetch('https://localhost:7132/Auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ firstName, lastName, email, password, dateOfBirth, isActive }),
       });
 
       if (!response.ok) {
         const data = await response.json();
-        enqueueSnackbar("Login Failed", { variant: 'error' });
+        enqueueSnackbar("Signup Failed", { variant: 'error' });
         throw new Error(data.message);
         
       }
 
-      const data = await response.json();
-      const { access_token, userId, initials } = data;
+      // const data = await response.json();
+      // const { access_token, userId, initials } = data;
 
       // Store data in cookies
-      Cookies.set('access_token', access_token);
-      Cookies.set('user_id', userId);
-      Cookies.set('username_initials', initials);
+      // Cookies.set('access_token', access_token);
+      // Cookies.set('user_id', userId);
+      // Cookies.set('username_initials', initials);
 
-      enqueueSnackbar('Login successful', { variant: 'success' });
+      enqueueSnackbar('Signup successful', { variant: 'success' });
 
       // Redirect to dashboard
-      router.push('/');
+      router.push('/login');
     } catch (err) {  
         setError(err.message);
         setLoading(false);
     }
   };
 
-
   const renderForm = (
     <form onSubmit={handleSubmit}>
       <Stack spacing={3}>
+        <TextField name="firstName" label="First Name" />
+        <TextField name="lastName" label="Last Name" />
         <TextField name="email" label="Email address" />
-
         <TextField
           name="password"
           label="Password"
@@ -94,12 +95,7 @@ export default function LoginView() {
             ),
           }}
         />
-      </Stack>
-
-      <Stack direction="row" alignItems="center" justifyContent="flex-end" sx={{ my: 3 }}>
-        <Link variant="subtitle2" underline="hover">
-          Forgot password?
-        </Link>
+        <TextField name="dob" label="Date of Birth" type="date" InputLabelProps={{ shrink: true }} />
       </Stack>
 
       <LoadingButton
@@ -109,8 +105,9 @@ export default function LoginView() {
         variant="contained"
         color="inherit"
         loading={loading}
+        sx={{mt:2}}
       >
-        Login
+        Sign up
       </LoadingButton>
       {error && <Typography variant="body2" color="error">{error}</Typography>}
     </form>
@@ -142,52 +139,14 @@ export default function LoginView() {
             maxWidth: 420,
           }}
         >
-          <Typography variant="h4">Sign in to Minimal</Typography>
+          <Typography variant="h4">Sign up for Minimal</Typography>
 
           <Typography variant="body2" sx={{ mt: 2, mb: 5 }}>
-            Don’t have an account?
-            <Link variant="subtitle2" href="/signup"  sx={{ ml: 0.5 }}>
-              Get started
+            Already have an account?{' '}
+            <Link href="/login" variant="subtitle2" sx={{ ml: 0.5, cursor:'pointer' }}>
+              Log in
             </Link>
           </Typography>
-
-          <Stack direction="row" spacing={2}>
-            <Button
-              fullWidth
-              size="large"
-              color="inherit"
-              variant="outlined"
-              sx={{ borderColor: alpha(theme.palette.grey[500], 0.16) }}
-            >
-              <Iconify icon="eva:google-fill" color="#DF3E30" />
-            </Button>
-
-            <Button
-              fullWidth
-              size="large"
-              color="inherit"
-              variant="outlined"
-              sx={{ borderColor: alpha(theme.palette.grey[500], 0.16) }}
-            >
-              <Iconify icon="eva:facebook-fill" color="#1877F2" />
-            </Button>
-
-            <Button
-              fullWidth
-              size="large"
-              color="inherit"
-              variant="outlined"
-              sx={{ borderColor: alpha(theme.palette.grey[500], 0.16) }}
-            >
-              <Iconify icon="eva:twitter-fill" color="#1C9CEA" />
-            </Button>
-          </Stack>
-
-          <Divider sx={{ my: 3 }}>
-            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-              OR
-            </Typography>
-          </Divider>
 
           {renderForm}
         </Card>

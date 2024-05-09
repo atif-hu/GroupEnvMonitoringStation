@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using GroupEnvironmentMonitoringStation.Database;
+using backend.Database;
+using backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<GroupMonitoringStationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("SQLiteConnection")));
 
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
@@ -33,6 +37,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Configure CORS
+app.UseCors(builder => builder
+    .WithOrigins("http://localhost:3030") // Replace with your React app URL
+    .AllowAnyHeader()
+    .AllowAnyMethod());
+
 
 app.UseHttpsRedirection();
 
