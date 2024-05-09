@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using GroupEnvironmentMonitoringStation.Models;
+using backend.Models;
 
-namespace GroupEnvironmentMonitoringStation.Database
+namespace backend.Database
 {
     public class GroupMonitoringStationDbContext : DbContext
     {
