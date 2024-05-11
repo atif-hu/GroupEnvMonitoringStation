@@ -69,6 +69,70 @@ namespace backend.Controllers
             return Ok(response);
         }
 
+        [HttpGet]
+        public IActionResult IsAuthenticated()
+        {
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+
+            if (string.IsNullOrEmpty(token))
+            {
+                return Ok(new { isAuthenticated = false });
+            }
+
+            var user = ValidateToken(token);
+            if (user == null)
+            {
+                return Ok(new { isAuthenticated = false });
+            }
+
+            return Ok(new { isAuthenticated = true, user });
+        }
+
+        private object ValidateToken(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_jwtSecret);
+
+            try
+            {
+                var validationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero
+                };
+
+                SecurityToken validatedToken;
+                var principal = tokenHandler.ValidateToken(token, validationParameters, out validatedToken);
+
+                if (!(validatedToken is JwtSecurityToken jwtSecurityToken) ||
+                    !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    return null;
+                }
+
+                var userId = principal.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                var userEmail = principal.FindFirst(ClaimTypes.Name)?.Value;
+
+                if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(userEmail))
+                {
+                    return null;
+                }
+
+                return new
+                {
+                    Id = int.Parse(userId),
+                    Email = userEmail
+                };
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
         private string GenerateJwtToken(Users user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();

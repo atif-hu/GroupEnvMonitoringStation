@@ -1,4 +1,3 @@
-// import Cookies from 'js-cookie';
 import { useState } from 'react';
 import { useSnackbar } from 'notistack';
 
