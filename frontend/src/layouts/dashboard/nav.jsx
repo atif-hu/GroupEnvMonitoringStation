@@ -30,11 +30,15 @@ export default function Nav({ openNav, onCloseNav }) {
 
   const upLg = useResponsive('up', 'lg');
 
+  let initials;
+  let userId;
+  if(document.cookie!==''){
+    initials = document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1];
+    userId = document.cookie.split('; ').find(row => row.startsWith('user_id')).split('=')[1];
+  }
   
-  const initials = document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1];
-  const userId = document.cookie.split('; ').find(row => row.startsWith('user_id')).split('=')[1];
-
   useEffect(() => {
+
     const fetchUser = async (id) =>{
     const response = await fetch(`https://localhost:7132/api/User/${id}`);
       console.log(response)
@@ -42,7 +46,7 @@ export default function Nav({ openNav, onCloseNav }) {
     if (openNav) {
       onCloseNav();
     }
-    fetchUser(userId);
+    if(document.cookie!=='') fetchUser(userId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
