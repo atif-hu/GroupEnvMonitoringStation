@@ -36,7 +36,7 @@ export default function LoginView() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const username = e.target.email.value;
+    const email = e.target.email.value;
     const password = e.target.password.value;
 
     try {
@@ -46,7 +46,7 @@ export default function LoginView() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ email, password }),
       });
 
       if (!response.ok) {
@@ -57,10 +57,10 @@ export default function LoginView() {
       }
 
       const data = await response.json();
-      const { access_token, userId, initials } = data;
+      const { accessToken, userId, initials } = data;
 
       // Store data in cookies
-      Cookies.set('access_token', access_token);
+      Cookies.set('access_token', accessToken);
       Cookies.set('user_id', userId);
       Cookies.set('username_initials', initials);
 

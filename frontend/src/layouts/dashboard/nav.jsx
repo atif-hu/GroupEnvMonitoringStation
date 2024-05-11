@@ -30,10 +30,19 @@ export default function Nav({ openNav, onCloseNav }) {
 
   const upLg = useResponsive('up', 'lg');
 
+  
+  const initials = document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1];
+  const userId = document.cookie.split('; ').find(row => row.startsWith('user_id')).split('=')[1];
+
   useEffect(() => {
+    const fetchUser = async (id) =>{
+    const response = await fetch(`https://localhost:7132/api/User/${id}`);
+      console.log(response)
+    }
     if (openNav) {
       onCloseNav();
     }
+    fetchUser(userId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
@@ -50,8 +59,10 @@ export default function Nav({ openNav, onCloseNav }) {
         bgcolor: (theme) => alpha(theme.palette.grey[500], 0.12),
       }}
     >
-      <Avatar src={account.photoURL} alt="photoURL" />
-
+      {/* <Avatar src={account.photoURL} alt="photoURL" /> */}
+      <Avatar sx={{bgcolor:'#1877F2'}}>
+      {initials}
+    </Avatar>
       <Box sx={{ ml: 2 }}>
         <Typography variant="subtitle2">{account.displayName}</Typography>
 
