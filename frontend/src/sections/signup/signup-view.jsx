@@ -1,3 +1,4 @@
+import Cookies from 'js-cookie';
 import { useState } from 'react';
 import { useSnackbar } from 'notistack';
 
@@ -56,18 +57,18 @@ export default function SignupView() {
         
       }
 
-      // const data = await response.json();
-      // const { access_token, userId, initials } = data;
+      const data = await response.json();
+      const { accessToken, userId, initials } = data;
 
       // Store data in cookies
-      // Cookies.set('access_token', access_token);
-      // Cookies.set('user_id', userId);
-      // Cookies.set('username_initials', initials);
+      Cookies.set('access_token', accessToken);
+      Cookies.set('user_id', userId);
+      Cookies.set('username_initials', initials);
 
       enqueueSnackbar('Signup successful', { variant: 'success' });
 
       // Redirect to dashboard
-      router.push('/login');
+      router.push('/');
     } catch (err) {  
         setError(err.message);
         setLoading(false);

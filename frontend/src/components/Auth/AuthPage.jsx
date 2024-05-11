@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import Router from 'src/routes/sections'
 
-import { LoginView } from 'src/sections/login';
+import { SignupView } from 'src/sections/signup';
 
 const AuthPage = () => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -36,7 +36,7 @@ const AuthPage = () => {
         checkAuth();
     }, []);
 
-    return isAuthenticated ? <Router/> : <LoginView />;
+    return isAuthenticated ? <Router/> : <SignupView />;
 };
 
  
