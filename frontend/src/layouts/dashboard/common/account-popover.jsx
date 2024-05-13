@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
@@ -9,7 +9,8 @@ import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 
-import { account } from 'src/_mock/account';
+import { account, fetchUser } from 'src/_mock/account';
+import UserProfileModal from 'src/modals/UserProfileModal';
 
 // ----------------------------------------------------------------------
 
@@ -17,14 +18,17 @@ const MENU_OPTIONS = [
   {
     label: 'Home',
     icon: 'eva:home-fill',
+    action: 'home'
   },
   {
     label: 'Profile',
     icon: 'eva:person-fill',
+    action: 'profile'
   },
   {
     label: 'Settings',
     icon: 'eva:settings-2-fill',
+    action: 'settings'
   },
 ];
 
@@ -32,6 +36,8 @@ const MENU_OPTIONS = [
 
 export default function AccountPopover() {
   const [open, setOpen] = useState(null);
+  const [userData, setUserData] = useState('');
+  const [openModal, setOpenModal] = useState(false); // State for modal
 
   const handleOpen = (event) => {
     setOpen(event.currentTarget);
@@ -39,6 +45,27 @@ export default function AccountPopover() {
 
   const handleClose = () => {
     setOpen(null);
+  };
+  
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await fetchUser();
+      setUserData(data);
+    };
+
+    fetchData();
+  }, []);
+
+  const handleMenuItemClick = (action) => {
+    if (action === 'profile') {
+      setOpenModal(true); // Open modal when clicking on "Profile"
+      handleClose(); // Close popover
+    }
+  };
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
   };
 
   return (
@@ -56,15 +83,16 @@ export default function AccountPopover() {
         }}
       >
         <Avatar
-          src={account.photoURL}
-          alt={account.displayName}
+          src={account.initials}
+          alt={account.initials}
           sx={{
-            width: 36,
-            height: 36,
-            border: (theme) => `solid 2px ${theme.palette.background.default}`,
+            width: 40,
+            height: 40,
+            border: (theme) => `solid 0px`,
+            bgcolor: '#1877F2'
           }}
         >
-          {account.displayName.charAt(0).toUpperCase()}
+          {account.initials}
         </Avatar>
       </IconButton>
 
@@ -85,17 +113,17 @@ export default function AccountPopover() {
       >
         <Box sx={{ my: 1.5, px: 2 }}>
           <Typography variant="subtitle2" noWrap>
-            {account.displayName}
+          {userData.firstName} {userData.lastName}
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }} noWrap>
-            {account.email}
+            {userData.email}
           </Typography>
         </Box>
 
         <Divider sx={{ borderStyle: 'dashed' }} />
 
         {MENU_OPTIONS.map((option) => (
-          <MenuItem key={option.label} onClick={handleClose}>
+          <MenuItem key={option.label} onClick={() => handleMenuItemClick(option.action)}>
             {option.label}
           </MenuItem>
         ))}
@@ -111,6 +139,9 @@ export default function AccountPopover() {
           Logout
         </MenuItem>
       </Popover>
+
+      <UserProfileModal open={openModal} onClose={handleCloseModal} userData={userData} userId = {userData.id} />
+ 
     </>
   );
 }
