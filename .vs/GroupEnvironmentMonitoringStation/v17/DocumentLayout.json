@@ -7,11 +7,23 @@
       "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|f:\\groupenvmonitoringstation\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|f:\\groupenvmonitoringstation\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\20240513013908_add_isAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Migrations\\20240513013908_add_isAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\database\\groupmonitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\database\\groupmonitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,23 +39,11 @@
       "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|f:\\groupenvmonitoringstation\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|f:\\groupenvmonitoringstation\\backend\\migrations\\groupmonitoringstationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\migrations\\groupmonitoringstationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\migrations\\groupmonitoringstationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|f:\\groupenvmonitoringstation\\backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|f:\\groupenvmonitoringstation\\backend\\database\\groupmonitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\database\\groupmonitoringstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1534FBD-B682-44BF-877B-36AA32273CE5}|..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\envmonitoring\\envmonitoring\\monitoringstationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -71,15 +71,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "backend\\Services\\UserService.cs",
-              "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
-              "RelativeToolTip": "backend\\Services\\UserService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwAwAAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "20240513013908_add_isAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\20240513013908_add_isAdmin.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20240513013908_add_isAdmin.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\20240513013908_add_isAdmin.cs",
+              "RelativeToolTip": "backend\\Migrations\\20240513013908_add_isAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:27:04.638Z"
+              "WhenOpened": "2024-05-13T01:39:09.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -89,26 +90,26 @@
               "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
               "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "backend\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwDsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T23:22:54.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
               "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAgwFAAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T16:24:51.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Program.cs",
               "RelativeDocumentMoniker": "backend\\Program.cs",
@@ -116,57 +117,75 @@
               "RelativeToolTip": "backend\\Program.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAIwCQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:03:09.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "backend\\Services\\IUserService.cs",
-              "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
-              "RelativeToolTip": "backend\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T00:47:29.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\appsettings.json",
-              "RelativeDocumentMoniker": "backend\\appsettings.json",
-              "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\appsettings.json",
-              "RelativeToolTip": "backend\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-08T18:49:22.022Z"
+              "WhenOpened": "2024-05-08T01:03:09.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GroupMonitoringStationDbContext.cs",
-              "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "RelativeDocumentMoniker": "backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "RelativeToolTip": "backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
+              "RelativeToolTip": "backend\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:22:56.939Z"
+              "WhenOpened": "2024-05-08T00:47:29.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "GroupMonitoringStationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Database\\GroupMonitoringStationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
+              "RelativeToolTip": "backend\\Database\\GroupMonitoringStationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:22:56.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
+              "RelativeToolTip": "backend\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:59:48.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
+              "RelativeToolTip": "backend\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T23:27:04.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
+              "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:37:22.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "backend\\Models\\LoginModel.cs",
@@ -190,15 +209,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Users.cs",
-              "DocumentMoniker": "F:\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Users.cs",
-              "ToolTip": "F:\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
-              "RelativeToolTip": "backend\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "DocumentIndex": 10,
+              "Title": "GroupMonitoringStationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:59:48.284Z"
+              "WhenOpened": "2024-05-08T01:02:53.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

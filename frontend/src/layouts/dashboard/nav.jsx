@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useState, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
@@ -15,7 +16,7 @@ import { RouterLink } from 'src/routes/components';
 
 import { useResponsive } from 'src/hooks/use-responsive';
 
-import { account } from 'src/_mock/account';
+import { account, fetchUser } from 'src/_mock/account';
 
 import Logo from 'src/components/logo';
 import Scrollbar from 'src/components/scrollbar';
@@ -30,23 +31,19 @@ export default function Nav({ openNav, onCloseNav }) {
 
   const upLg = useResponsive('up', 'lg');
 
-  let initials;
-  let userId;
-  if(document.cookie!==''){
-    initials = document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1];
-    userId = document.cookie.split('; ').find(row => row.startsWith('user_id')).split('=')[1];
-  }
-  
-  useEffect(() => {
+  const [userData, setUserData] = useState('');
 
-    const fetchUser = async (id) =>{
-    const response = await fetch(`https://localhost:7132/api/User/${id}`);
-      console.log(response)
-    }
+  useEffect(() => {
     if (openNav) {
       onCloseNav();
     }
-    if(document.cookie!=='') fetchUser(userId);
+
+    const fetchData = async () => {
+      const data = await fetchUser();
+      setUserData(data);
+    };
+
+    fetchData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
@@ -62,16 +59,15 @@ export default function Nav({ openNav, onCloseNav }) {
         alignItems: 'center',
         bgcolor: (theme) => alpha(theme.palette.grey[500], 0.12),
       }}
-    >
-      {/* <Avatar src={account.photoURL} alt="photoURL" /> */}
+    > 
       <Avatar sx={{bgcolor:'#1877F2'}}>
-      {initials}
+      {account.initials}
     </Avatar>
       <Box sx={{ ml: 2 }}>
-        <Typography variant="subtitle2">{account.displayName}</Typography>
+        <Typography variant="subtitle2">{`${userData.firstName} ${userData.lastName}` }</Typography>
 
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          {account.role}
+          {userData.isAdmin?'Admin':''}
         </Typography>
       </Box>
     </Box>

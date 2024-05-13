@@ -19,7 +19,6 @@ namespace backend.Services
             if (user == null)
                 return null;
 
-            // You may want to omit sensitive information here
             user.Password = null;
 
             return user;
@@ -32,7 +31,6 @@ namespace backend.Services
 
         public void AddUser(Users user)
         {
-            // In a real scenario, you would typically hash the password before saving it
             _dbContext.Users.Add(user);
             _dbContext.SaveChanges();
         }
