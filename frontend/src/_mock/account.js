@@ -1,5 +1,5 @@
 export const account = {
-  initials : document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1],
+  initials : document.cookie!==''?document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1]:'',
   displayName: 'Jaydon Frankie',
   email: 'demo@minimals.cc',
   photoURL: '/assets/images/avatars/avatar_25.jpg',

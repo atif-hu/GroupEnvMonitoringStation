@@ -9,8 +9,11 @@ import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 
+import { useRouter } from 'src/routes/hooks';
+
 import { account, fetchUser } from 'src/_mock/account';
 import UserProfileModal from 'src/modals/UserProfileModal';
+
 
 // ----------------------------------------------------------------------
 
@@ -38,6 +41,7 @@ export default function AccountPopover() {
   const [open, setOpen] = useState(null);
   const [userData, setUserData] = useState('');
   const [openModal, setOpenModal] = useState(false); // State for modal
+  const router = useRouter();
 
   const handleOpen = (event) => {
     setOpen(event.currentTarget);
@@ -68,6 +72,17 @@ export default function AccountPopover() {
     setOpenModal(false);
   };
 
+  const handleLogout = () => {
+    setOpenModal(false);
+    document.cookie = `access_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+    document.cookie = `user_id=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+    document.cookie = `username_initials=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+    setUserData(null);
+    router.push('/login')
+  };
+
+  
+
   return (
     <>
       <IconButton
@@ -92,7 +107,7 @@ export default function AccountPopover() {
             bgcolor: '#1877F2'
           }}
         >
-          {account.initials}
+          {userData?`${userData.firstName[0].toUpperCase()}${userData.lastName[0].toUpperCase()}`:''}
         </Avatar>
       </IconButton>
 
@@ -133,7 +148,7 @@ export default function AccountPopover() {
         <MenuItem
           disableRipple
           disableTouchRipple
-          onClick={handleClose}
+          onClick={handleLogout}
           sx={{ typography: 'body2', color: 'error.main', py: 1.5 }}
         >
           Logout

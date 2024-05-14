@@ -13,6 +13,16 @@ const navConfig = [
     icon: icon('ic_analytics'),
   },
   {
+    title: 'london',
+    path: '/london',
+    icon: icon('ic_analytics'),
+  },
+  {
+    title: 'north-east',
+    path: '/north-east',
+    icon: icon('ic_analytics'),
+  },
+  {
     title: 'user',
     path: '/user',
     icon: icon('ic_user'),
