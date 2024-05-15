@@ -29,7 +29,7 @@ export default function AppWidgetSummary({ title, total, icon, color = 'primary'
         <Typography variant="h6">
           {title}
         </Typography>
-        {/* <Typography variant="h4" sx={{ color: 'text.disabled' }}>{fShortenNumber(total)}</Typography> */}
+        <Typography variant="h4" sx={{ color: 'text.disabled' }}>{(total)}</Typography>
 
       </Stack>
     </Card>
