@@ -53,13 +53,14 @@ export default function AccountPopover() {
   
 
   useEffect(() => {
+    if(document.cookie==='') router.push('/login')
     const fetchData = async () => {
       const data = await fetchUser();
       setUserData(data);
     };
 
     fetchData();
-  }, []);
+  });
 
   const handleMenuItemClick = (action) => {
     if (action === 'profile') {

@@ -1,4 +1,5 @@
 import { faker } from '@faker-js/faker';
+import React, { useState,useEffect } from 'react';
 
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
@@ -9,6 +10,7 @@ import { useRouter } from 'src/routes/hooks';
 import Iconify from 'src/components/iconify';
 
 import AppTasks from '../app-tasks';
+import config from '../../../../config';
 import AppNewsUpdate from '../app-news-update';
 import AppOrderTimeline from '../app-order-timeline';
 import AppCurrentVisits from '../app-current-visits';
@@ -24,11 +26,53 @@ import AppConversionRates from '../app-conversion-rates';
 export default function AppView() {
 
   const router = useRouter();
+  const [newsData, setNewsData] = useState([]);
+  let londonTempWarning = false;
 
   const handleGridClick = (route) => {
     router.push(route);
   };
 
+  const fetchLatestData = async () => {
+    try {
+      const temp_limit = config.TEMPERATURE_LIMIT;
+      const response = await fetch(`https://localhost:7051/api/temperature-monitoring/updates?limit=${temp_limit}`); // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const data = await response.json();
+      setNewsData(data);
+      if(data.temperature>30 || data.temperature<-9){
+        londonTempWarning = true;
+      }
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+    // try {
+    //   const rainfall_limit = config.RAINFALL_LIMIT;
+    //   const response = await fetch(`https://localhost:7051/api/rainfall-monitoring/updates?limit=${rainfall_limit}`); // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
+    //   if (!response.ok) {
+    //     throw new Error('Failed to fetch data');
+    //   }
+    //   const data = await response.json();
+    //   setNewsData(data);
+    // } catch (error) {
+    //   console.error('Error fetching data:', error);
+    // }
+  };
+
+  useEffect(() => {
+    if(document.cookie==='') router.push('/login')
+    fetchLatestData();
+
+    // Fetch new data every 1 minute
+    const interval = setInterval(() => {
+      fetchLatestData();
+    }, 60000);
+
+    // Clear interval on component unmount
+    return () => clearInterval(interval);
+  });
 
   return (
     <Container maxWidth="xl">
@@ -37,7 +81,7 @@ export default function AppView() {
       </Typography>
 
       <Grid container spacing={3}>
-        <Grid xs={12} sm={6} md={3}>
+        <Grid xs={12} sm={6} md={2.4}>
         <button
            type="button"
            style={{ cursor: 'pointer', border: 'none', background: 'none', padding: 0 }}
@@ -52,7 +96,7 @@ export default function AppView() {
           </button>
         </Grid>
 
-        <Grid xs={12} sm={6} md={3} sx={{cursor:'pointer'}}>
+        <Grid xs={12} sm={6} md={2.4} sx={{cursor:'pointer'}}>
         <button
            type="button"
            style={{ cursor: 'pointer', border: 'none', background: 'none', padding: 0 }}
@@ -67,7 +111,7 @@ export default function AppView() {
           </button>
         </Grid>
 
-        <Grid xs={12} sm={6} md={3} sx={{cursor:'pointer'}}>
+        <Grid xs={12} sm={6} md={2.4} sx={{cursor:'pointer'}}>
         <button
            type="button"
            style={{ cursor: 'pointer', border: 'none', background: 'none', padding: 0 }}
@@ -82,7 +126,7 @@ export default function AppView() {
           </button>
         </Grid>
 
-        <Grid xs={12} sm={6} md={3} sx={{cursor:'pointer'}}>
+        <Grid xs={12} sm={6} md={2.4} sx={{cursor:'pointer'}}>
         <button
            type="button"
            style={{ cursor: 'pointer', border: 'none', background: 'none', padding: 0 }}
@@ -97,11 +141,11 @@ export default function AppView() {
           </button>
         </Grid>
 
-        <Grid xs={12} sm={6} md={3} sx={{cursor:'pointer'}}>
+        <Grid xs={12} sm={6} md={2.4} sx={{cursor:'pointer'}}>
         <button
            type="button"
            style={{ cursor: 'pointer', border: 'none', background: 'none', padding: 0 }}
-           onClick={() => handleGridClick('/midlands')}
+           onClick={() => handleGridClick('/south-east')}
         >
           <AppWidgetSummary
             title="South East"
@@ -111,19 +155,20 @@ export default function AppView() {
           />
           </button>
         </Grid>
-
-        <Grid xs={12} md={6} lg={12}>
-          <AppNewsUpdate
-            title="News Update"
-            list={[...Array(5)].map((_, index) => ({
-              id: faker.string.uuid(),
-              title: faker.person.jobTitle(),
-              description: faker.commerce.productDescription(),
-              image: `/assets/images/covers/cover_${index + 1}.jpg`,
-              postedAt: faker.date.recent(),
-            }))}
-          />
-        </Grid>
+        
+            <Grid xs={12} md={6 } lg={12}>
+              <AppNewsUpdate
+                title='Temperature'
+                list={newsData.map((news, index) => ({
+                  id: news.id,
+                  title: 'London temperature',
+                  description: news.temperature,
+                  image: `/assets/icons/sensors/temperature.png`,
+                  postedAt: news.timestamp,
+                  warning:!londonTempWarning
+                }))}
+              />
+            </Grid>
 
         <Grid xs={12} md={6} lg={8}>
           <AppWebsiteVisits

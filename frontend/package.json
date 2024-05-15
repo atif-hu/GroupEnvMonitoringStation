@@ -4,6 +4,10 @@
   "licence": "MIT",
   "version": "1.8.0",
   "private": false,
+  
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
   "scripts": {
     "dev": "vite",
     "start": "vite preview",
@@ -17,7 +21,8 @@
     "re:build-npm": "npm run rm:all && npm install && npm run build",
     "dev:host": "vite --host",
     "vite:start": "vite",
-    "vite:build": "vite build"
+    "vite:build": "vite build",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -28,6 +33,7 @@
     "@mui/material": "^5.14.12",
     "apexcharts": "^3.43.0",
     "date-fns": "^2.30.0",
+    "dotenv": "^16.4.5",
     "history": "^5.3.0",
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
@@ -57,6 +63,7 @@
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "^3.0.3",
     "vite": "^4.4.11",
-    "vite-plugin-checker": "^0.6.2"
+    "vite-plugin-checker": "^0.6.2",
+    "react-error-overlay": "6.0.9"  
   }
 }

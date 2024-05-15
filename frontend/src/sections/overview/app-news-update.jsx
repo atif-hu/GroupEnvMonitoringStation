@@ -16,17 +16,22 @@ import Scrollbar from 'src/components/scrollbar';
 
 // ----------------------------------------------------------------------
 
-export default function AppNewsUpdate({ title, subheader, list, ...other }) {
+export default function AppNewsUpdate({ title, subheader, list, warning, ...other }) {
   return (
     <Card {...other}>
-      <CardHeader title={title} subheader={subheader} />
+      <CardHeader title={title} subheader={subheader}/>
 
       <Scrollbar>
-        <Stack spacing={3} sx={{ p: 3, pr: 0 }}>
+        <Stack spacing={3} sx={{ p: 3, pr: 0, }} >
           {list.map((news) => (
-            <NewsItem key={news.id} news={news} />
+            <NewsItem key={news.id} news={news} warning={warning} />
           ))}
         </Stack>
+        {/* <Stack spacing={3} sx={{ p: 3, pr: 0, pt:0 }}>
+          {list1.map((news) => (
+            <NewsItem key={news.id} news={news} />
+          ))}
+        </Stack> */}
       </Scrollbar>
 
       <Divider sx={{ borderStyle: 'dashed' }} />
@@ -48,11 +53,12 @@ AppNewsUpdate.propTypes = {
   title: PropTypes.string,
   subheader: PropTypes.string,
   list: PropTypes.array.isRequired,
+  warning: PropTypes.bool,
 };
 
 // ----------------------------------------------------------------------
 
-function NewsItem({ news }) {
+function NewsItem({ news, warning }) {
   const { image, title, description, postedAt } = news;
 
   return (
@@ -74,6 +80,12 @@ function NewsItem({ news }) {
         </Typography>
       </Box>
 
+      {warning &&(
+        <Typography variant="subtitle2" sx={{ color: 'red', fontWeight: 'bold' }}>
+          High Temperature {description}
+        </Typography>
+      )}
+
       <Typography variant="caption" sx={{ pr: 3, flexShrink: 0, color: 'text.secondary' }}>
         {fToNow(postedAt)}
       </Typography>
@@ -88,4 +100,5 @@ NewsItem.propTypes = {
     description: PropTypes.string,
     postedAt: PropTypes.instanceOf(Date),
   }),
+  warning: PropTypes.bool,
 };
