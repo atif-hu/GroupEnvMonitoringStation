@@ -16,7 +16,7 @@ export default function AppView() {
     const fetchData = async () => {
       try {
         const response = await axios.get('https://localhost:7298/api/MonitoringStation');
-        console.log('API Response:', response.data); // Log the API response for debugging
+        console.log('API Response:', response.data); 
 
         const newData = response.data;
 
@@ -25,29 +25,29 @@ export default function AppView() {
           updatedWidgetsData[item.environmentParameter] = item.value;
         });
 
-        console.log('Updated Widgets Data:', updatedWidgetsData); // Log the updated widget data
+        console.log('Updated Widgets Data:', updatedWidgetsData);
         setWidgetsData(updatedWidgetsData);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
     };
 
-    fetchData(); // Initial fetch
-    const interval = setInterval(fetchData, 5000); // Polling every 5 seconds
+    fetchData(); 
+    const interval = setInterval(fetchData, 5000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <Container maxWidth="xl">
       <Typography variant="h4" sx={{ mb: 5 }}>
-        Hi, Welcome back 👋
+        Hi, This is South East Data
       </Typography>
       <Grid container spacing={3}>
         {Object.keys(widgetsData).map((parameter) => (
           <Grid key={parameter}  xs={12} sm={6} md={3}>
             <AppWidgetSummary
               title={parameter}
-              total={widgetsData[parameter] || 'N/A'} // Display 'N/A' if the value is undefined or null
+              total={widgetsData[parameter] || 'N/A'} 
               icon={<img alt="icon" src="/assets/icons/glass/Weather.jpeg" />}
             />
           </Grid>
@@ -59,7 +59,6 @@ export default function AppView() {
         This is the Bar Chart for data
       </Typography>
       <Grid container spacing={3}>
-        {/* Other components */}
         <Grid item xs={12}>
           <BarChart/>
         </Grid>

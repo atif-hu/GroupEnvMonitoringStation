@@ -52,7 +52,7 @@ export default function AppWebsiteVisit() {
             else newWarnings.Rainfall = 'Rainfall is Normal.';
           }
           if (item.environmentParameter === 'Air Pollution') {
-            if (item.value > 9 || item.value < 1) newWarnings['Air Pollution'] = 'AirPollution Is Above Normal Normal';
+            if (item.value > 9 || item.value < 1) newWarnings['Air Pollution'] = 'AirPollution Is Above Normal';
             else newWarnings['Air Pollution'] = 'Air Pollution is Normal';
           }
           if (item.environmentParameter === 'CO2 Emission') {
