@@ -1,4 +1,5 @@
 const config = {
+    LONDON_MONITORING_STATION_URL : 'https://localhost:7051/api',
     TEMPERATURE_LIMIT : 3,
     RAINFALL_LIMIT : 2,
     HUMIDITY_LIMIT : 1,
