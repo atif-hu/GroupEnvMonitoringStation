@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "yv85QAwVKP2Y9lT2jR0pyPUJeGmTLMuIidJYyscKBgE=",
+  "Source": "LondonSensorsAPI",
+  "BasePath": "_content/LondonSensorsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj",
+      "Version": 2,
+      "Source": "LondonMonitoringStationAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

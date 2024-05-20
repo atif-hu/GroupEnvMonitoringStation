@@ -1,0 +1,215 @@
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.exe
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.deps.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.runtimeconfig.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.pdb
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.AssemblyReference.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.AssemblyInfoInputs.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.AssemblyInfo.cs
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.CoreCompileInputs.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.MonitoringStationAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.MonitoringStationAPI.props
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MonitoringStationAPI.props
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MonitoringStationAPI.props
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\scopedcss\bundle\MonitoringStationAPI.styles.css
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.CopyComplete
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\refint\MonitoringStationAPI.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.pdb
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.genruntimeconfig.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\ref\MonitoringStationAPI.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\appsettings.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.exe
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.deps.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.runtimeconfig.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.pdb
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Humanizer.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.AssemblyReference.cache
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.AssemblyInfoInputs.cache
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.AssemblyInfo.cs
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.CoreCompileInputs.cache
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.sourcelink.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.MonitoringStationAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.MonitoringStationAPI.props
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MonitoringStationAPI.props
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MonitoringStationAPI.props
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\scopedcss\bundle\MonitoringStationAPI.styles.css
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\Monitori.1E8E71BC.Up2Date
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\refint\MonitoringStationAPI.dll
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.pdb
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.genruntimeconfig.cache
+D:\Atif\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\ref\MonitoringStationAPI.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.exe
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.deps.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.runtimeconfig.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\MonitoringStationAPI.pdb
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.AssemblyInfo.cs
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.sourcelink.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.MonitoringStationAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.MonitoringStationAPI.props
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MonitoringStationAPI.props
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MonitoringStationAPI.props
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\scopedcss\bundle\MonitoringStationAPI.styles.css
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\Monitori.1E8E71BC.Up2Date
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\refint\MonitoringStationAPI.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.pdb
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\MonitoringStationAPI.genruntimeconfig.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\obj\Debug\net7.0\ref\MonitoringStationAPI.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\Moq.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.abstractions.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.assert.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.core.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\bin\Debug\net7.0\xunit.execution.dotnet.dll
