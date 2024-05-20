@@ -16,14 +16,34 @@ import Scrollbar from 'src/components/scrollbar';
 
 // ----------------------------------------------------------------------
 
-export default function AppNewsUpdate({ title, subheader, list, ...other }) {
+export default function AppNewsUpdate({ title, subheader, list, list1, list2, list3, list4, ...other }) {
   return (
     <Card {...other}>
-      <CardHeader title={title} subheader={subheader} />
+      <CardHeader title={title} subheader={subheader}/>
 
       <Scrollbar>
-        <Stack spacing={3} sx={{ p: 3, pr: 0 }}>
+        <Stack spacing={3} sx={{ p: 3, pr: 0, }} >
           {list.map((news) => (
+            <NewsItem key={news.id} news={news} highWarning={news.highWarning} lowWarning={news.lowWarning} />
+          ))}
+        </Stack>
+        <Stack spacing={3} sx={{ p: 3, pr: 0, pt:0 }}>
+          {list1.map((news) => (
+            <NewsItem key={news.id} news={news} />
+          ))}
+        </Stack>
+        <Stack spacing={3} sx={{ p: 3, pr: 0, pt:0 }}>
+          {list2.map((news) => (
+            <NewsItem key={news.id} news={news} />
+          ))}
+        </Stack>
+        <Stack spacing={3} sx={{ p: 3, pr: 0, pt:0 }}>
+          {list3.map((news) => (
+            <NewsItem key={news.id} news={news} />
+          ))}
+        </Stack>
+        <Stack spacing={3} sx={{ p: 3, pr: 0, pt:0 }}>
+          {list4.map((news) => (
             <NewsItem key={news.id} news={news} />
           ))}
         </Stack>
@@ -48,15 +68,25 @@ AppNewsUpdate.propTypes = {
   title: PropTypes.string,
   subheader: PropTypes.string,
   list: PropTypes.array.isRequired,
+  list1: PropTypes.array.isRequired,
+  list2: PropTypes.array.isRequired,
+  list3: PropTypes.array.isRequired,
+  list4: PropTypes.array.isRequired,
 };
 
 // ----------------------------------------------------------------------
 
 function NewsItem({ news }) {
-  const { image, title, description, postedAt } = news;
-
+  const { image, title, description, postedAt, highWarning, lowWarning, unit } = news;
+  
   return (
-    <Stack direction="row" alignItems="center" spacing={2}>
+    <Stack direction="row" alignItems="center" spacing={2} sx={{
+      ...((highWarning || lowWarning) && {
+        color: 'red',
+        backgroundColor: '#ffcccc',
+        borderRadius: '10px',
+      }),
+    }}>
       <Box
         component="img"
         alt={title}
@@ -65,14 +95,26 @@ function NewsItem({ news }) {
       />
 
       <Box sx={{ minWidth: 240, flexGrow: 1 }}>
-        <Link color="inherit" variant="subtitle2" underline="hover" noWrap>
+        <Link color="inherit" variant="subtitle2" underline="none" noWrap>
           {title}
         </Link>
 
         <Typography variant="body2" sx={{ color: 'text.secondary' }} noWrap>
-          {description}
+          {description} {unit}
         </Typography>
       </Box>
+
+      {highWarning &&(
+        <Typography variant="subtitle2" sx={{ color: 'red', fontWeight: 'bold' }}>
+          HIGH {title.toUpperCase()} :     {description}
+        </Typography>
+      )}
+
+      {lowWarning &&(
+        <Typography variant="subtitle2" sx={{ color: 'red', fontWeight: 'bold' }}>
+         LOW {title.toUpperCase()} :     {description}
+        </Typography>
+      )}
 
       <Typography variant="caption" sx={{ pr: 3, flexShrink: 0, color: 'text.secondary' }}>
         {fToNow(postedAt)}
@@ -86,6 +128,9 @@ NewsItem.propTypes = {
     image: PropTypes.string,
     title: PropTypes.string,
     description: PropTypes.string,
-    postedAt: PropTypes.instanceOf(Date),
-  }),
+    postedAt: PropTypes.string,
+    highWarning: PropTypes.bool,
+    lowWarning: PropTypes.bool,
+    unit: PropTypes.string,
+  })
 };

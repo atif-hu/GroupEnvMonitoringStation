@@ -51,6 +51,11 @@ export default function AccountPopover() {
     setOpen(null);
   };
   
+  useEffect(() => {
+    if(document.cookie==='') {
+      router.push('/login');
+    }
+  }, [router]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -59,7 +64,7 @@ export default function AccountPopover() {
     };
 
     fetchData();
-  }, []);
+  },[]);
 
   const handleMenuItemClick = (action) => {
     if (action === 'profile') {

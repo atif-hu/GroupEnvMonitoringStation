@@ -1,0 +1,18 @@
+C:\Users\w23063664\source\repos\EnvMonitoring\Sensors\bin\Debug\Sensors.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\Sensors\bin\Debug\Sensors.pdb
+C:\Users\w23063664\source\repos\EnvMonitoring\Sensors\obj\Debug\Sensors.csproj.AssemblyReference.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\Sensors\obj\Debug\Sensors.csproj.CoreCompileInputs.cache
+C:\Users\w23063664\source\repos\EnvMonitoring\Sensors\obj\Debug\Sensors.dll
+C:\Users\w23063664\source\repos\EnvMonitoring\Sensors\obj\Debug\Sensors.pdb
+D:\Atif\EnvMonitoring\Sensors\bin\Debug\Sensors.dll
+D:\Atif\EnvMonitoring\Sensors\bin\Debug\Sensors.pdb
+D:\Atif\EnvMonitoring\Sensors\obj\Debug\Sensors.csproj.AssemblyReference.cache
+D:\Atif\EnvMonitoring\Sensors\obj\Debug\Sensors.csproj.CoreCompileInputs.cache
+D:\Atif\EnvMonitoring\Sensors\obj\Debug\Sensors.dll
+D:\Atif\EnvMonitoring\Sensors\obj\Debug\Sensors.pdb
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\Sensors\bin\Debug\Sensors.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\Sensors\bin\Debug\Sensors.pdb
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\Sensors\obj\Debug\Sensors.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\Sensors\obj\Debug\Sensors.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\Sensors\obj\Debug\Sensors.dll
+C:\Users\user\Documents\Adv Programming\Assessment1\EnvMonitoring\EnvMonitoring\Sensors\obj\Debug\Sensors.pdb

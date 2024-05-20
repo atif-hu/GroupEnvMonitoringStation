@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JnoQ7Tw/iTI4tw3JGmAYEoHFT1JpekFq5jXXGeYr9Qo=",
+  "Source": "LondonMonitoringStationAPI",
+  "BasePath": "_content/LondonMonitoringStationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

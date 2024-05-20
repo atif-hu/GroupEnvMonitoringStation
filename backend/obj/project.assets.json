@@ -2120,19 +2120,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mnoum\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\mnoum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mnoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

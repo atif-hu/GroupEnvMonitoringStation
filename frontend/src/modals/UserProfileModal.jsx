@@ -60,7 +60,7 @@ const UserProfileModal = ({ open, onClose, userData, userId}) => {
   
         if (!response.ok) {
           const data = await response.json();
-          enqueueSnackbar("Login Failed", { variant: 'error' });
+          enqueueSnackbar("Prodile Update failed", { variant: 'error' });
           throw new Error(data.message);
           
         }
