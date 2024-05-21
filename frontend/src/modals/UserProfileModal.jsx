@@ -16,10 +16,14 @@ import Iconify from 'src/components/iconify';
 
 const UserProfileModal = ({ open, onClose, userData, userId}) => {
   const [formData, setFormData] = useState({
+    id:userId,
     firstName: userData.firstName,
     lastName: userData.lastName,
     email: userData.email,
-    password: userData.password
+    password: userData.password,
+    dateOfBirth: userData.dateOfBirth,
+    isActive: true,
+    isAdmin: false
   });
   
   const { enqueueSnackbar } = useSnackbar();
@@ -29,13 +33,17 @@ const UserProfileModal = ({ open, onClose, userData, userId}) => {
   useEffect(() => {
     if (userData) {
       setFormData({
+        id: userId,
         firstName: userData.firstName,
         lastName: userData.lastName,
         email: userData.email,
-        password: userData.password
+        password: userData.password,
+        dateOfBirth: userData.dateOfBirth,
+        isActive: true,
+        isAdmin: false
       });
     }
-  }, [userData]);
+  }, [userData,userId]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,7 +59,7 @@ const UserProfileModal = ({ open, onClose, userData, userId}) => {
     try {
         // Call your backend authentication service's signup method
         const response = await fetch(`https://localhost:7132/Api/User/${userId}`, {
-          method: 'PATCH',
+          method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
           },
@@ -70,7 +78,7 @@ const UserProfileModal = ({ open, onClose, userData, userId}) => {
           setLoading(false);
       }
 
-    console.log('Updated User Data:', formData);
+    // console.log('Updated User Data:', formData);
     onClose(); // Close modal after submission
   };
 
@@ -95,6 +103,14 @@ const UserProfileModal = ({ open, onClose, userData, userId}) => {
             label="Last Name"
             name="lastName"
             value={formData.lastName}
+            onChange={handleChange}
+          />
+          <TextField
+            margin="normal"
+            fullWidth
+            label="Date of Birth"
+            name="dateOfBirth"
+            value={formData.dateOfBirth}
             onChange={handleChange}
           />
           <TextField

@@ -24,6 +24,9 @@ export default function AppWebsiteVisits({ title, subheader, chart, ...other }) 
     labels,
     xaxis: {
       type: 'datetime',
+      labels: {
+        format: 'HH:mm:ss', // Format for hours and minutes
+      },
     },
     tooltip: {
       shared: true,
@@ -31,11 +34,14 @@ export default function AppWebsiteVisits({ title, subheader, chart, ...other }) 
       y: {
         formatter: (value) => {
           if (typeof value !== 'undefined') {
-            return `${value.toFixed(0)} visits`;
+            return `${value.toFixed(0)} `;
           }
           return value;
         },
       },
+      x: {
+        format: 'HH:mm:ss'
+      }
     },
     ...options,
   });

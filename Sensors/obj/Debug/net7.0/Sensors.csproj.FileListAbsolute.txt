@@ -1,0 +1,84 @@
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\appsettings.Development.json
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\appsettings.json
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\Sensors.exe
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\Sensors.deps.json
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\Sensors.runtimeconfig.json
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\Sensors.dll
+D:\Advance Programming\final\Sensors\bin\Debug\net7.0\Sensors.pdb
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.AssemblyInfoInputs.cache
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.AssemblyInfo.cs
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.csproj.CoreCompileInputs.cache
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.MvcApplicationPartsAssemblyInfo.cache
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets.build.json
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets.development.json
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.Sensors.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.build.Sensors.props
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sensors.props
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sensors.props
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\scopedcss\bundle\Sensors.styles.css
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.dll
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\refint\Sensors.dll
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.pdb
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\Sensors.genruntimeconfig.cache
+D:\Advance Programming\final\Sensors\obj\Debug\net7.0\ref\Sensors.dll
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\appsettings.Development.json
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\appsettings.json
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\Sensors.exe
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\Sensors.deps.json
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\Sensors.runtimeconfig.json
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\Sensors.dll
+D:\Advance Programming\Final Copy\Sensors\bin\Debug\net7.0\Sensors.pdb
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.AssemblyInfoInputs.cache
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.AssemblyInfo.cs
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.csproj.CoreCompileInputs.cache
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.MvcApplicationPartsAssemblyInfo.cache
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets.build.json
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets.development.json
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.Sensors.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.build.Sensors.props
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sensors.props
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sensors.props
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\scopedcss\bundle\Sensors.styles.css
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.dll
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\refint\Sensors.dll
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.pdb
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\Sensors.genruntimeconfig.cache
+D:\Advance Programming\Final Copy\Sensors\obj\Debug\net7.0\ref\Sensors.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\appsettings.Development.json
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\appsettings.json
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Sensors.exe
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Sensors.deps.json
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Sensors.runtimeconfig.json
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Sensors.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Sensors.pdb
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.AssemblyInfoInputs.cache
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.AssemblyInfo.cs
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.csproj.CoreCompileInputs.cache
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.MvcApplicationPartsAssemblyInfo.cache
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets.build.json
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets.development.json
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.Sensors.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.build.Sensors.props
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sensors.props
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sensors.props
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\scopedcss\bundle\Sensors.styles.css
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.dll
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\refint\Sensors.dll
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.pdb
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.genruntimeconfig.cache
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\ref\Sensors.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Humanizer.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Advance Programming\Final 1st Component\Sensors\bin\Debug\net7.0\System.CodeDom.dll
+D:\Advance Programming\Final 1st Component\Sensors\obj\Debug\net7.0\Sensors.csproj.Up2Date

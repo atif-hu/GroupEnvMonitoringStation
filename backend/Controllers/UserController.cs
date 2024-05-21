@@ -37,27 +37,34 @@ namespace backend.Controllers
             }
         }
 
-        [HttpPatch("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, [FromBody] JsonPatchDocument<Users> patchDoc)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id, Users updatedUser)
         {
             try
             {
-                if (patchDoc == null)
+                if (id != updatedUser.Id)
                 {
-                    return BadRequest("Profile body is null.");
+                    return BadRequest("ID mismatch between URL and user data.");
                 }
 
-                var user = await _dbContext.Users.FindAsync(id);
-                if (user == null)
+                var existingUser = await _dbContext.Users.FindAsync(id);
+                if (existingUser == null)
                 {
                     return NotFound();
                 }
 
-                _dbContext.Users.Update(user);
+                existingUser.FirstName = updatedUser.FirstName;
+                existingUser.LastName = updatedUser.LastName;
+                existingUser.Email = updatedUser.Email;
+                existingUser.Password = updatedUser.Password;
+                existingUser.DateOfBirth = updatedUser.DateOfBirth;
+                existingUser.IsActive = updatedUser.IsActive;
+                existingUser.IsAdmin = updatedUser.IsAdmin;
 
+                _dbContext.Users.Update(existingUser);
                 await _dbContext.SaveChangesAsync();
 
-                return Ok(user);
+                return NoContent(); // 204 No Content
             }
             catch (Exception ex)
             {
