@@ -3,17 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{C1F806E3-8FA6-4B70-A50D-7BF77D0BB6EF}|WebApplication1\\WebApplication1\\YorkshireWebApplication1.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\webapplication1\\webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F806E3-8FA6-4B70-A50D-7BF77D0BB6EF}|WebApplication1\\WebApplication1\\YorkshireWebApplication1.csproj|solutionrelative:webapplication1\\webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1534FBD-B682-44BF-877B-36AA32273CE5}|..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\LondonMonitoringStationAPI.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\envmonitoring\\envmonitoring\\monitoringstationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{2E292722-EE0C-4486-8B3A-997E0D0FDBA3}|D:\\Advance Programming\\Final 1st Component\\Sensors\\Sensors.csproj|d:\\advance programming\\final 1st component\\sensors\\services\\co2emissionssensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E292722-EE0C-4486-8B3A-997E0D0FDBA3}|D:\\Advance Programming\\Final 1st Component\\Sensors\\Sensors.csproj|d:\\advance programming\\final 1st component\\sensors\\services\\temperaturesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26140210-2412-43C6-B61B-DBDB8D940559}|D:\\Advance Programming\\Final 1st Component\\MonitoringStationAPI\\MonitoringStationAPI.csproj|d:\\advance programming\\final 1st component\\monitoringstationapi\\controllers\\monitoringstationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> main
     },
     {
       "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,14 +32,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|solutionrelative:backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55814844-9ECE-4D23-BD3A-9CC0EF39142F}|backend\\backend.csproj|c:\\users\\user\\documents\\adv programming\\assessment1\\groupenvmonitoringstation\\backend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -100,83 +94,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
-              "RelativeToolTip": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T21:22:56.111Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-=======
-              "Title": "CO2EmissionsSensor.cs",
-              "DocumentMoniker": "D:\\Advance Programming\\Final 1st Component\\Sensors\\Services\\CO2EmissionsSensor.cs",
-              "ToolTip": "D:\\Advance Programming\\Final 1st Component\\Sensors\\Services\\CO2EmissionsSensor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAADwv1gAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:28:27.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TemperatureSensor.cs",
-              "DocumentMoniker": "D:\\Advance Programming\\Final 1st Component\\Sensors\\Services\\TemperatureSensor.cs",
-              "ToolTip": "D:\\Advance Programming\\Final 1st Component\\Sensors\\Services\\TemperatureSensor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:27:12.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MonitoringStationController.cs",
-              "DocumentMoniker": "D:\\Advance Programming\\Final 1st Component\\MonitoringStationAPI\\Controllers\\MonitoringStationController.cs",
-              "ToolTip": "D:\\Advance Programming\\Final 1st Component\\MonitoringStationAPI\\Controllers\\MonitoringStationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:19:22.549Z",
+              "WhenOpened": "2024-05-20T15:19:32.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Advance Programming\\Final 1st Component\\MonitoringStationAPI\\appsettings.json",
-              "ToolTip": "D:\\Advance Programming\\Final 1st Component\\MonitoringStationAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-15T16:19:07.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
->>>>>>> main
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAkwBcAAAAVAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwB4AAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
               "WhenOpened": "2024-05-07T02:37:22.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MonitoringStationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
@@ -184,126 +132,12 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:33:31.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-=======
-              "WhenOpened": "2024-05-15T16:19:01.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240513013908_add_isAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Migrations\\20240513013908_add_isAdmin.cs",
-              "RelativeDocumentMoniker": "backend\\Migrations\\20240513013908_add_isAdmin.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Migrations\\20240513013908_add_isAdmin.cs",
-              "RelativeToolTip": "backend\\Migrations\\20240513013908_add_isAdmin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:39:09.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
-              "RelativeToolTip": "backend\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:22:54.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwFAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:24:51.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "backend\\Program.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Program.cs",
-              "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwCQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:03:09.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "backend\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
-              "RelativeToolTip": "backend\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T00:47:29.37Z"
+              "WhenOpened": "2024-05-06T14:33:31.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GroupMonitoringStationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "RelativeDocumentMoniker": "backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "RelativeToolTip": "backend\\Database\\GroupMonitoringStationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:22:56.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
-              "RelativeToolTip": "backend\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:59:48.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "backend\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
-              "RelativeToolTip": "backend\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:27:04.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:37:22.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
->>>>>>> main
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "backend\\Models\\LoginModel.cs",
@@ -311,34 +145,25 @@
               "RelativeToolTip": "backend\\Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:15:26.948Z"
+              "WhenOpened": "2024-05-07T18:15:26.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Users.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Models\\Users.cs",
               "RelativeToolTip": "backend\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
-=======
-              "DocumentIndex": 13,
-              "Title": "GroupMonitoringStationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\mnoum\\Documents\\GitHub\\GroupEnvMonitoringStation\\backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAQwAIAAAAAAAAA",
->>>>>>> main
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:59:48.284Z"
+              "WhenOpened": "2024-05-07T17:59:48.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
@@ -346,23 +171,51 @@
               "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:24:51.993Z"
+              "WhenOpened": "2024-05-09T16:24:51.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Program.cs",
               "RelativeDocumentMoniker": "backend\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Program.cs",
               "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:03:09.504Z"
+              "WhenOpened": "2024-05-08T01:03:09.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "backend\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwFMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T23:22:54.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
+              "RelativeToolTip": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T21:22:56.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\appsettings.json",
               "RelativeDocumentMoniker": "backend\\appsettings.json",
@@ -370,23 +223,12 @@
               "RelativeToolTip": "backend\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T15:24:39.435Z"
+              "WhenOpened": "2024-05-16T15:24:39.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Controllers\\UserController.cs",
-              "RelativeToolTip": "backend\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwEYAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:22:54.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "backend\\Services\\UserService.cs",
@@ -394,23 +236,25 @@
               "RelativeToolTip": "backend\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T23:27:04.638Z"
+              "WhenOpened": "2024-05-09T23:27:04.638Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Program.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Program.cs",
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIBZwB4AAAAnAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAACBjwB4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:39:55.122Z"
+              "WhenOpened": "2024-05-14T23:39:55.122Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Nouman\\SensorsP\\MonitoringStationAPI\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\appsettings.json",
@@ -418,11 +262,12 @@
               "RelativeToolTip": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-15T21:23:56.257Z"
+              "WhenOpened": "2024-05-15T21:23:56.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EnviromentDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Nouman\\SensorsP\\MonitoringStationAPI\\Database\\EnviromentDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\Database\\EnviromentDbContext.cs",
@@ -430,11 +275,12 @@
               "RelativeToolTip": "..\\..\\Nouman\\SensorsP\\MonitoringStationAPI\\Database\\EnviromentDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T21:25:48.548Z"
+              "WhenOpened": "2024-05-15T21:25:48.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HumidityMonitoringController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\HumidityMonitoringController.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\HumidityMonitoringController.cs",
@@ -442,11 +288,12 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\HumidityMonitoringController.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAIwD4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:05:39.606Z"
+              "WhenOpened": "2024-05-15T20:05:39.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CO2EmissionsMonitoringController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\CO2EmissionsMonitoringController.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\CO2EmissionsMonitoringController.cs",
@@ -454,11 +301,12 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\CO2EmissionsMonitoringController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:06:45.489Z"
+              "WhenOpened": "2024-05-15T20:06:45.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TemperatureMonitoringController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\TemperatureMonitoringController.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\TemperatureMonitoringController.cs",
@@ -466,14 +314,12 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\TemperatureMonitoringController.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAuwDcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:15:43.731Z"
+              "WhenOpened": "2024-05-14T23:15:43.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-=======
-              "DocumentIndex": 16,
->>>>>>> main
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
@@ -481,33 +327,25 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T02:38:34.004Z"
+              "WhenOpened": "2024-05-07T02:38:34.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AirPollutionMonitoringController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\AirPollutionMonitoringController.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\AirPollutionMonitoringController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\AirPollutionMonitoringController.cs",
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Controllers\\AirPollutionMonitoringController.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAIwEYAAAAgAAAA",
-=======
-              "DocumentIndex": 17,
-              "Title": "MonitoringStationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\MonitoringStationAPI\\Database\\MonitoringStationDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAAAAAAA",
->>>>>>> main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:07:50.962Z"
+              "WhenOpened": "2024-05-15T20:07:50.962Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "20240513013908_add_isAdmin.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\20240513013908_add_isAdmin.cs",
               "RelativeDocumentMoniker": "backend\\Migrations\\20240513013908_add_isAdmin.cs",
@@ -515,11 +353,12 @@
               "RelativeToolTip": "backend\\Migrations\\20240513013908_add_isAdmin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:39:09.234Z"
+              "WhenOpened": "2024-05-13T01:39:09.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TemperatureSensorController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Controllers\\TemperatureSensorController.cs",
               "RelativeDocumentMoniker": "..\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Controllers\\TemperatureSensorController.cs",
@@ -527,11 +366,12 @@
               "RelativeToolTip": "..\\EnvMonitoring\\EnvMonitoring\\SensorsAPI\\Controllers\\TemperatureSensorController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T20:43:58.618Z"
+              "WhenOpened": "2024-05-14T20:43:58.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "backend\\Services\\IUserService.cs",
@@ -539,11 +379,12 @@
               "RelativeToolTip": "backend\\Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T00:47:29.37Z"
+              "WhenOpened": "2024-05-08T00:47:29.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "GroupMonitoringStationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Database\\GroupMonitoringStationDbContext.cs",
               "RelativeDocumentMoniker": "backend\\Database\\GroupMonitoringStationDbContext.cs",
@@ -551,11 +392,12 @@
               "RelativeToolTip": "backend\\Database\\GroupMonitoringStationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:22:56.939Z"
+              "WhenOpened": "2024-05-07T18:22:56.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "GroupMonitoringStationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Adv Programming\\Assessment1\\GroupEnvMonitoringStation\\backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
@@ -563,7 +405,8 @@
               "RelativeToolTip": "backend\\Migrations\\GroupMonitoringStationDbContextModelSnapshot.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAQwAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:02:53.248Z"
+              "WhenOpened": "2024-05-08T01:02:53.248Z",
+              "EditorCaption": ""
             }
           ]
         }

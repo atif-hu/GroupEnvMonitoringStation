@@ -37,11 +37,11 @@ const navConfig = [
     path: '/south-east',
     icon: icon('south-east'),
   },
-  {
-    title: 'user',
-    path: '/user',
-    icon: icon('users'),
-  },
+  // {
+  //   title: 'user',
+  //   path: '/user',
+  //   icon: icon('users'),
+  // },
   // {
   //   title: 'product',
   //   path: '/products',
@@ -52,16 +52,16 @@ const navConfig = [
   //   path: '/blog',
   //   icon: icon('ic_blog'),
   // },
-  {
-    title: 'login',
-    path: '/login',
-    icon: icon('user'),
-  },
-  {
-    title: 'Not found',
-    path: '/404',
-    icon: icon('disabled'),
-  },
+  // {
+  //   title: 'login',
+  //   path: '/login',
+  //   icon: icon('user'),
+  // },
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: icon('disabled'),
+  // },
 ];
 
 export default navConfig;

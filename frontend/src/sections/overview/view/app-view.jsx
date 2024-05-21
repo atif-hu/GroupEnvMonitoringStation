@@ -1,22 +1,22 @@
-import { faker } from '@faker-js/faker';
+// import { faker } from '@faker-js/faker';
 import React, { useState,useEffect } from 'react';
 
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Unstable_Grid2';  
 import Typography from '@mui/material/Typography';
 
-import AppTasks from '../app-tasks';
+// import AppTasks from '../app-tasks';
 import config from '../../../../config';
 import AppNewsUpdate from '../app-news-update';
 import { useRouter } from "../../../routes/hooks";
-import Iconify from '../../../components/iconify';
-import AppOrderTimeline from '../app-order-timeline';
-import AppCurrentVisits from '../app-current-visits';
-import AppWebsiteVisits from '../app-website-visits';
+// import Iconify from '../../../components/iconify';
+// import AppOrderTimeline from '../app-order-timeline';
+// import AppCurrentVisits from '../app-current-visits';
+// import AppWebsiteVisits from '../app-website-visits';
 import AppWidgetSummary from '../app-widget-summary';
-import AppTrafficBySite from '../app-traffic-by-site';
-import AppCurrentSubject from '../app-current-subject';
-import AppConversionRates from '../app-conversion-rates';
+// import AppTrafficBySite from '../app-traffic-by-site';
+// import AppCurrentSubject from '../app-current-subject';
+// import AppConversionRates from '../app-conversion-rates';
 
 // ----------------------------------------------------------------------
 
@@ -240,7 +240,7 @@ export default function AppView() {
             }))}
             />
         </Grid>
-
+{/* 
         <Grid xs={12} md={6} lg={8}>
           <AppWebsiteVisits
             title="London Sensors"
@@ -391,7 +391,7 @@ export default function AppView() {
               { id: '5', name: 'Sprint Showcase' },
             ]}
           />
-        </Grid>
+        </Grid> */}
       </Grid>
     </Container>
   );

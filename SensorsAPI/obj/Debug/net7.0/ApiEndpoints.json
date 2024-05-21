@@ -1,0 +1,52 @@
+[
+  {
+    "ContainingType": "SensorsAPI.Controllers.SensorController",
+    "Method": "GetAirPollutionFromSensor",
+    "RelativePath": "api/Sensor/GetAirPollution",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SensorsAPI.Controllers.SensorController",
+    "Method": "GetCO2EmissionFromSensor",
+    "RelativePath": "api/Sensor/GetCO2Emission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SensorsAPI.Controllers.SensorController",
+    "Method": "GetHumidityFromSensor",
+    "RelativePath": "api/Sensor/GetHumidity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SensorsAPI.Controllers.SensorController",
+    "Method": "GetRainFromSensor",
+    "RelativePath": "api/Sensor/GetRainFall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SensorsAPI.Controllers.SensorController",
+    "Method": "GetTempFromSensor",
+    "RelativePath": "api/Sensor/GetTemp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
