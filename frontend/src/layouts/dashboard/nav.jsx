@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useState, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import { alpha } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
@@ -15,7 +16,7 @@ import { RouterLink } from 'src/routes/components';
 
 import { useResponsive } from 'src/hooks/use-responsive';
 
-import { account } from 'src/_mock/account';
+import {fetchUser } from 'src/_mock/account';
 
 import Logo from 'src/components/logo';
 import Scrollbar from 'src/components/scrollbar';
@@ -30,23 +31,19 @@ export default function Nav({ openNav, onCloseNav }) {
 
   const upLg = useResponsive('up', 'lg');
 
-  let initials;
-  let userId;
-  if(document.cookie!==''){
-    initials = document.cookie.split('; ').find(row => row.startsWith('username_initials')).split('=')[1];
-    userId = document.cookie.split('; ').find(row => row.startsWith('user_id')).split('=')[1];
-  }
-  
-  useEffect(() => {
+  const [userData, setUserData] = useState('');
 
-    const fetchUser = async (id) =>{
-    const response = await fetch(`https://localhost:7132/api/User/${id}`);
-      console.log(response)
-    }
+  useEffect(() => {
     if (openNav) {
       onCloseNav();
     }
-    if(document.cookie!=='') fetchUser(userId);
+
+    const fetchData = async () => {
+      const data = await fetchUser();
+      setUserData(data);
+    };
+
+    fetchData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
@@ -62,16 +59,15 @@ export default function Nav({ openNav, onCloseNav }) {
         alignItems: 'center',
         bgcolor: (theme) => alpha(theme.palette.grey[500], 0.12),
       }}
-    >
-      {/* <Avatar src={account.photoURL} alt="photoURL" /> */}
+    > 
       <Avatar sx={{bgcolor:'#1877F2'}}>
-      {initials}
+      {userData?`${userData.firstName[0].toUpperCase()}${userData.lastName[0].toUpperCase()}`:''}
     </Avatar>
       <Box sx={{ ml: 2 }}>
-        <Typography variant="subtitle2">{account.displayName}</Typography>
+        <Typography variant="subtitle2">{`${userData.firstName} ${userData.lastName}` }</Typography>
 
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          {account.role}
+          {userData.isAdmin?'Admin':''}
         </Typography>
       </Box>
     </Box>
@@ -85,34 +81,34 @@ export default function Nav({ openNav, onCloseNav }) {
     </Stack>
   );
 
-  const renderUpgrade = (
-    <Box sx={{ px: 2.5, pb: 3, mt: 10 }}>
-      <Stack alignItems="center" spacing={3} sx={{ pt: 5, borderRadius: 2, position: 'relative' }}>
-        <Box
-          component="img"
-          src="/assets/illustrations/illustration_avatar.png"
-          sx={{ width: 100, position: 'absolute', top: -50 }}
-        />
+  // const renderUpgrade = (
+  //   <Box sx={{ px: 2.5, pb: 3, mt: 10 }}>
+  //     <Stack alignItems="center" spacing={3} sx={{ pt: 5, borderRadius: 2, position: 'relative' }}>
+  //       <Box
+  //         component="img"
+  //         src="/assets/illustrations/illustration_avatar.png"
+  //         sx={{ width: 100, position: 'absolute', top: -50 }}
+  //       />
 
-        <Box sx={{ textAlign: 'center' }}>
-          <Typography variant="h6">Get more?</Typography>
+  //       <Box sx={{ textAlign: 'center' }}>
+  //         <Typography variant="h6">Get more?</Typography>
 
-          <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
-            From only $69
-          </Typography>
-        </Box>
+  //         <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
+  //           From only $69
+  //         </Typography>
+  //       </Box>
 
-        <Button
-          href="https://material-ui.com/store/items/minimal-dashboard/"
-          target="_blank"
-          variant="contained"
-          color="inherit"
-        >
-          Upgrade to Pro
-        </Button>
-      </Stack>
-    </Box>
-  );
+  //       <Button
+  //         href="https://material-ui.com/store/items/minimal-dashboard/"
+  //         target="_blank"
+  //         variant="contained"
+  //         color="inherit"
+  //       >
+  //         Upgrade to Pro
+  //       </Button>
+  //     </Stack>
+  //   </Box>
+  // );
 
   const renderContent = (
     <Scrollbar
@@ -133,7 +129,7 @@ export default function Nav({ openNav, onCloseNav }) {
 
       <Box sx={{ flexGrow: 1 }} />
 
-      {renderUpgrade}
+      {/* {renderUpgrade} */}
     </Scrollbar>
   );
 
