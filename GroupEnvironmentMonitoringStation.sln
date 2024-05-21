@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonMonitoringStationAPI", "..\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\LondonMonitoringStationAPI.csproj", "{C1534FBD-B682-44BF-877B-36AA32273CE5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonSensors", "..\EnvMonitoring\EnvMonitoring\Sensors\LondonSensors.csproj", "{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonSensorsAPI", "..\EnvMonitoring\EnvMonitoring\SensorsAPI\LondonSensorsAPI.csproj", "{8CFB87CD-937C-425B-A304-944592FAF6A6}"
-EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend", "Frontend\frontend.esproj", "{9F603571-ABBC-4A7A-9246-C3FD485D12E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend", "backend\backend.csproj", "{55814844-9ECE-4D23-BD3A-9CC0EF39142F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors", "D:\Advance Programming\Final 1st Component\Sensors\Sensors.csproj", "{2E292722-EE0C-4486-8B3A-997E0D0FDBA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SouthEastSensors", "D:\Advance Programming\Final 1st Component\Sensors\SouthEastSensors.csproj", "{2E292722-EE0C-4486-8B3A-997E0D0FDBA3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorsAPI", "D:\Advance Programming\Final 1st Component\SensorsAPI\SensorsAPI.csproj", "{E664184A-3E94-408D-834B-A995724583F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SouthEastSensorsAPI", "D:\Advance Programming\Final 1st Component\SensorsAPI\SouthEastSensorsAPI.csproj", "{E664184A-3E94-408D-834B-A995724583F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringStationAPI", "D:\Advance Programming\Final 1st Component\MonitoringStationAPI\MonitoringStationAPI.csproj", "{26140210-2412-43C6-B61B-DBDB8D940559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SouthEastMonitoringStationAPI", "D:\Advance Programming\Final 1st Component\MonitoringStationAPI\SouthEastMonitoringStationAPI.csproj", "{26140210-2412-43C6-B61B-DBDB8D940559}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonSensorsAPI", "..\..\..\Downloads\New folder\EnvMonitoring\EnvMonitoring\EnvMonitoring\SensorsAPI\LondonSensorsAPI.csproj", "{118906E2-EA2E-49C3-96D4-3BB823AAD3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonSensors", "..\..\..\Downloads\New folder\EnvMonitoring\EnvMonitoring\EnvMonitoring\Sensors\LondonSensors.csproj", "{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonMonitoringStationAPI", "..\..\..\Downloads\New folder\EnvMonitoring\EnvMonitoring\EnvMonitoring\MonitoringStationAPI\LondonMonitoringStationAPI.csproj", "{B1BFE8C8-73FA-41A2-B348-F015030A8DEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1534FBD-B682-44BF-877B-36AA32273CE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CFB87CD-937C-425B-A304-944592FAF6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CFB87CD-937C-425B-A304-944592FAF6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CFB87CD-937C-425B-A304-944592FAF6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CFB87CD-937C-425B-A304-944592FAF6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F603571-ABBC-4A7A-9246-C3FD485D12E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F603571-ABBC-4A7A-9246-C3FD485D12E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F603571-ABBC-4A7A-9246-C3FD485D12E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -59,6 +47,18 @@ Global
 		{26140210-2412-43C6-B61B-DBDB8D940559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26140210-2412-43C6-B61B-DBDB8D940559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26140210-2412-43C6-B61B-DBDB8D940559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118906E2-EA2E-49C3-96D4-3BB823AAD3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118906E2-EA2E-49C3-96D4-3BB823AAD3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118906E2-EA2E-49C3-96D4-3BB823AAD3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118906E2-EA2E-49C3-96D4-3BB823AAD3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FA45AD-373E-40B9-8B64-69F052A2AFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BFE8C8-73FA-41A2-B348-F015030A8DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BFE8C8-73FA-41A2-B348-F015030A8DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BFE8C8-73FA-41A2-B348-F015030A8DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BFE8C8-73FA-41A2-B348-F015030A8DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
